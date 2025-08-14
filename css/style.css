@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+}
+
+.container{
+    max-width: 1170px;
+    padding: 0px 15px;
+    margin: auto;
+}
+
+
+.cmn-btn{
+    text-decoration: none;
+    padding: 18px 31px;
+    color: #363434;
+    background-color: #BFB283;
+    display: inline-block;
+    border-radius: 7px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Roboto Condensed", serif;
+}
+
+.cmn-head{
+    color: #363434;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 85px;
+    font-family: "Oswald", serif;
+}
+.cmn-span{
+    color: #BFB283;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 23px;
+    font-family: "Roboto Condensed", serif;
+    letter-spacing: 3px;
+}
+
+
+
+
+
+
+
+
+.nav-head{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 20px 0px;
+}
+
+.nav-main-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-child-div ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-child-div ul li a{
+    text-decoration: none;
+    font-family: "Roboto Condensed", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+.banner-sec{
+    background-image: url("../image/bg\ img.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 214px;
+    padding-bottom: 182px;  
+}
+
+.banner-main-div h1{
+    color: white;
+    font-family: "Oswald", serif;
+    line-height: 85px;
+    font-size: 62px;
+    font-weight: 300;
+    max-width: 544px;
+}
+
+.banner-main-div p{
+    color: white;
+    font-family: "Roboto Condensed", serif;
+    line-height: 33px;
+    font-size: 24px;
+    font-weight: 400;
+    max-width: 450px;
+    margin-top: 28px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+.provide-sec{
+    padding-top: 84px;
+    padding-bottom: 105px;
+    display: flex;
+    justify-content:space-between
+
+}
+
+.provide-top-div{
+    text-align: center;
+}
+
+.provide-main-div{
+    display: flex;
+    margin: 0px -15px;
+    ;
+}
+
+.provide-child-div{
+    width: 25%;
+    padding: 0px 15px;
+}
